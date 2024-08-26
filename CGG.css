@@ -1,0 +1,134 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.intro {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216, 209, 147, 0.603);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.color_button {
+    zoom: 150%;
+    border-radius: 8px;
+    background-color: rgb(255, 94, 0);
+    padding: 5px;
+    border: none;
+}
+
+.color_button:hover {
+    background-color: rgb(252, 115, 4);
+    cursor: pointer;
+}
+
+.mind_D {
+    padding-left: 50%;
+    padding-top: 468px;
+    background-color: rgba(166, 237, 255, 0.548);
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 20px;
+}
+
+.R_1 {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.R_2 {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    gap: 100px;
+}
+
+.red:hover {
+    cursor: pointer;
+}
+
+.green:hover {
+    cursor: pointer;
+}
+
+.yellow:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 870px) {
+    .R_2 {
+        zoom: 70%;
+    }
+
+    .R_1 {
+        zoom: 70%;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .R_2 {
+        zoom: 50%;
+    }
+
+    .R_1 {
+        zoom: 60%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .R_1 {
+        zoom: 50%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .R_1 {
+        zoom: 45%;
+    }
+
+    .R_2 {
+        zoom: 45%;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .R_1 {
+        zoom: 40%;
+    }
+
+    .R_2 {
+        zoom: 40%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .R_2 {
+        zoom: 60%;
+    }
+
+    .mind_D {
+        padding-left: 300px;
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .R_2 {
+        zoom: 25%;
+    }
+}
