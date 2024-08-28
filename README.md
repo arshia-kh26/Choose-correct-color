@@ -5,12 +5,13 @@ A simple game with javascript
  
 in this game you have to choose correct color from three color.
 
-![imgag](https://s8.uupload.ir/files/untitled_7soj.png)
+<img src="Image/image3.png" alt="photo" >
+
 
 if you choose correct color, encouraging messages are displayed
 
-![](https://s8.uupload.ir/files/2024-08-26_13-10-34_w5c8.png)
+<img src="Image/image1.png" alt="photo" >
 
 if you don't Negative messages are displayed
 
-![](https://s8.uupload.ir/files/2024-08-26_13-11-15_o3c1.png)
+<img src="Image/image2.png" alt="photo" >
